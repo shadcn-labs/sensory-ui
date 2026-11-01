@@ -1,1 +1,1 @@
-export const GITHUB_REGISTRY = "SatyamVyas04/sensory-ui";
+export const GITHUB_REGISTRY = "shadcn-labs/sensory-ui";

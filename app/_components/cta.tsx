@@ -60,7 +60,7 @@ export function CTA() {
               sound="interaction.tap"
             >
               <Link
-                href="https://github.com/SatyamVyas04/sensory-ui"
+                href="https://github.com/shadcn-labs/sensory-ui"
                 onClick={() =>
                   posthog.capture("cta_clicked", { button: "github" })
                 }

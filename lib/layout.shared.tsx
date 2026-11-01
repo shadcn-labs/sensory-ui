@@ -20,6 +20,6 @@ export function baseOptions(): BaseLayoutProps {
         </span>
       ),
     },
-    githubUrl: "https://github.com/SatyamVyas04/sensory-ui",
+    githubUrl: "https://github.com/shadcn-labs/sensory-ui",
   };
 }

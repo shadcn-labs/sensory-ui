@@ -4,6 +4,7 @@ import { Footer } from "./_components/footer";
 import { Hero } from "./_components/hero";
 import { Ideology } from "./_components/ideology";
 import { Inspiration } from "./_components/inspiration";
+import { LabsFooter } from "./_components/labs-footer";
 import { Showcase } from "./_components/showcase";
 import { WhySound } from "./_components/why-sound";
 
@@ -102,7 +103,7 @@ const jsonLd = {
       logo: "https://sensory-ui.com/sensory-ui-logo-large.svg",
       sameAs: [
         "https://x.com/SatyamVyas04",
-        "https://github.com/SatyamVyas04/sensory-ui",
+        "https://github.com/shadcn-labs/sensory-ui",
       ],
     },
     {
@@ -122,7 +123,7 @@ const jsonLd = {
           name: "How do I add sound to a shadcn/ui component?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: 'Install a component with the shadcn CLI (npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-button), wrap your app in SensoryUIProvider, then pass a sound prop such as sound="interaction.tap". All other props behave exactly like shadcn/ui.',
+            text: 'Install a component with the shadcn CLI (npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-button), wrap your app in SensoryUIProvider, then pass a sound prop such as sound="interaction.tap". All other props behave exactly like shadcn/ui.',
           },
         },
         {
@@ -149,7 +150,7 @@ const jsonLd = {
 async function getStars(): Promise<number | null> {
   try {
     const res = await fetch(
-      "https://api.github.com/repos/SatyamVyas04/sensory-ui",
+      "https://api.github.com/repos/shadcn-labs/sensory-ui",
       { next: { revalidate: 3600 } }
     );
     if (!res.ok) {
@@ -181,6 +182,7 @@ export default async function Page() {
         <CTA />
       </main>
       <Footer />
+      <LabsFooter placement="home" />
     </>
   );
 }

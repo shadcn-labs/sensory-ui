@@ -8,9 +8,10 @@ meaningful audio cue. 17 sound roles across 5 categories, 9 sound packs,
 Accessibility-first: opt-in sounds, per-category kill-switches, volume
 control, prefers-reduced-motion support.
 
-Install: npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-button
+Install: npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-button
 Docs: ${SITE_URL}/docs
-GitHub: https://github.com/SatyamVyas04/sensory-ui`;
+GitHub: https://github.com/shadcn-labs/sensory-ui
+Announcement: ${SITE_URL}/shadcn-labs - sensory-ui is now part of Shadcn Labs.`;
 
 /**
  * Plain-text site map for answer engines and LLM crawlers (GEO/AEO).

@@ -43,7 +43,7 @@ export function useGithubStars() {
 
   useEffect(() => {
     let cancelled = false;
-    fetch("https://api.github.com/repos/SatyamVyas04/sensory-ui")
+    fetch("https://api.github.com/repos/shadcn-labs/sensory-ui")
       .then((res) => (res.ok ? res.json() : null))
       .then((data) => {
         if (!cancelled && typeof data?.stargazers_count === "number") {
@@ -249,12 +249,12 @@ export function GithubButton({ className }: { className?: string }) {
   const stars = useGithubStars();
   return (
     <NextLink
-      aria-label="GitHub - SatyamVyas04/sensory-ui"
+      aria-label="GitHub - shadcn-labs/sensory-ui"
       className={cn(
         "flex h-8 items-center justify-center gap-1.5 border border-fd-border bg-transparent px-2.5 font-sans text-fd-muted-foreground text-xs transition-colors hover:bg-fd-accent hover:text-fd-accent-foreground",
         className
       )}
-      href="https://github.com/SatyamVyas04/sensory-ui"
+      href="https://github.com/shadcn-labs/sensory-ui"
       rel="noopener noreferrer"
       target="_blank"
     >

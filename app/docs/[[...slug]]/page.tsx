@@ -97,7 +97,7 @@ export default async function Page(props: {
                 {
                   "@type": "HowToStep",
                   name: "Install one component",
-                  text: "Run npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-button. This pulls the core engine plus the Button.",
+                  text: "Run npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-button. This pulls the core engine plus the Button.",
                 },
                 {
                   "@type": "HowToStep",

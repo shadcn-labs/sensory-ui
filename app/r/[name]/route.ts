@@ -11,9 +11,9 @@
  *   ... etc for all 24 components
  *
  * Install via:
- *   npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui          # everything
- *   npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-core     # core only
- *   npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-button   # single component
+ *   npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui          # everything
+ *   npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-core     # core only
+ *   npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-button   # single component
  */
 
 import { readdirSync, readFileSync, statSync } from "node:fs";

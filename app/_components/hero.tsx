@@ -2,11 +2,11 @@
 
 import {
   IconArrowRight,
+  IconArrowUpRight,
   IconBrandGithub,
   IconBrandX,
   IconCheck,
   IconCopy,
-  IconWaveSine,
 } from "@tabler/icons-react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import Image from "next/image";
@@ -220,8 +220,8 @@ export function Hero({ stars }: HeroProps) {
               variant="outline"
             >
               <Link
-                aria-label="GitHub - SatyamVyas04/sensory-ui"
-                href="https://github.com/SatyamVyas04/sensory-ui"
+                aria-label="GitHub - shadcn-labs/sensory-ui"
+                href="https://github.com/shadcn-labs/sensory-ui"
                 onClick={() =>
                   posthog.capture("hero_nav_link_clicked", { link: "github" })
                 }
@@ -243,15 +243,34 @@ export function Hero({ stars }: HeroProps) {
       <div className="relative mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-8 px-4 py-24 sm:px-6 lg:grid-cols-2 lg:gap-12 lg:py-32">
         {/* Left column - text content */}
         <div className="mx-auto w-full max-w-xl text-center lg:text-left">
-          {/* Badge */}
+          {/* Badge: announcement - sensory-ui joins Shadcn Labs */}
           <motion.div
             {...fadeUp(0)}
             className="mb-3 flex items-center justify-center gap-2 lg:justify-start"
           >
-            <span className="inline-flex items-center gap-1.5 border border-primary/30 bg-primary/5 px-2.5 py-1 font-mono text-primary text-xs">
-              <IconWaveSine aria-hidden="true" className="size-3" />
-              made for the web
-            </span>
+            <Link
+              className="group inline-flex items-center gap-1.5 border border-primary/30 bg-primary/5 px-2.5 py-1 font-mono text-primary text-xs transition-colors hover:bg-primary/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              href="/shadcn-labs"
+              onClick={() =>
+                posthog.capture("announcement_badge_clicked", {
+                  placement: "hero",
+                })
+              }
+            >
+              <Image
+                alt=""
+                aria-hidden="true"
+                className="size-3.5 dark:invert"
+                height={455}
+                src="/shadcn-labs-logomark.svg"
+                width={505}
+              />
+              <span>sensory-ui is now part of Shadcn Labs</span>
+              <IconArrowUpRight
+                aria-hidden="true"
+                className="size-3 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+              />
+            </Link>
           </motion.div>
 
           {/* Headline */}

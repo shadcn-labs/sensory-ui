@@ -36,7 +36,7 @@ export default function NotFound() {
           </Link>
           <a
             className="border border-white/30 px-4 py-2 font-mono text-white text-xs uppercase tracking-wide transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50"
-            href="https://github.com/SatyamVyas04/sensory-ui"
+            href="https://github.com/shadcn-labs/sensory-ui"
             rel="noopener noreferrer"
             target="_blank"
           >

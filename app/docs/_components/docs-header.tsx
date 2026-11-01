@@ -268,9 +268,9 @@ export function DocsHeader({ className, ...props }: HeaderProps) {
             </span>
           </Link>
           <Link
-            aria-label="GitHub - SatyamVyas04/sensory-ui"
+            aria-label="GitHub - shadcn-labs/sensory-ui"
             className="flex size-8 shrink-0 items-center justify-center border border-fd-border bg-transparent text-fd-muted-foreground transition-colors hover:bg-fd-accent hover:text-fd-accent-foreground"
-            href="https://github.com/SatyamVyas04/sensory-ui"
+            href="https://github.com/shadcn-labs/sensory-ui"
             rel="noopener noreferrer"
             target="_blank"
           >

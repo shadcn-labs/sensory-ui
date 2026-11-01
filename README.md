@@ -3,7 +3,7 @@
 
 **A semantic sound layer for React and Next.js.**
 
-17 sound roles · 9 sound packs · 24 components - built for [shadcn/ui](https://ui.shadcn.com).
+17 sound roles · 9 sound packs · 24 components - built for [shadcn/ui](https://ui.shadcn.com). Now part of [Shadcn Labs](https://www.shadcn-labs.com).
 
 [Installation](#installation) · [Usage](#usage) · [Sound Packs](#sound-packs) · [Configuration](#configuration)
 
@@ -14,17 +14,17 @@
 ## Installation
 
 ```bash
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui
 ```
 
 Or install individual pieces:
 
 ```bash
 # Core engine only (no components)
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-core
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-core
 
 # Single component
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-button
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-button
 ```
 
 **Requirements:** Next.js 13.4+, shadcn/ui initialised, Node.js 18+.
@@ -168,7 +168,7 @@ Plus `core` (engine, provider, config, sounds), installed automatically as a dep
 ## Development
 
 ```bash
-git clone https://github.com/SatyamVyas04/sensory-ui.git
+git clone https://github.com/shadcn-labs/sensory-ui.git
 cd sensory-ui && npm install
 npm run dev
 ```

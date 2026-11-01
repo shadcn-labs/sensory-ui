@@ -101,7 +101,7 @@ export function Footer() {
           </p>
           <Link
             className="inline-flex w-fit items-center gap-1.5 border border-foreground/30 px-3 py-1.5 font-mono text-foreground text-xs uppercase tracking-wide transition-colors hover:bg-foreground/10 sm:text-sm"
-            href="https://github.com/SatyamVyas04/sensory-ui"
+            href="https://github.com/shadcn-labs/sensory-ui"
             onClick={() =>
               posthog.capture("footer_link_clicked", { link: "github" })
             }
@@ -134,7 +134,7 @@ export function Footer() {
             </Link>
             <Link
               className="transition-colors hover:text-white"
-              href="https://github.com/SatyamVyas04/sensory-ui"
+              href="https://github.com/shadcn-labs/sensory-ui"
               onClick={() =>
                 posthog.capture("footer_link_clicked", { link: "github" })
               }

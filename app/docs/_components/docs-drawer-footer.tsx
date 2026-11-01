@@ -14,9 +14,9 @@ export function DocsDrawerFooter() {
   return (
     <div className="grid h-12 shrink-0 grid-cols-[1fr_auto] divide-x divide-fd-border border-fd-border border-t font-sans">
       <Link
-        aria-label="GitHub - SatyamVyas04/sensory-ui"
+        aria-label="GitHub - shadcn-labs/sensory-ui"
         className="flex min-w-0 items-center justify-center gap-1.5 px-2 text-fd-muted-foreground text-xs transition-colors hover:bg-fd-accent hover:text-fd-accent-foreground"
-        href="https://github.com/SatyamVyas04/sensory-ui"
+        href="https://github.com/shadcn-labs/sensory-ui"
         rel="noopener noreferrer"
         target="_blank"
       >
