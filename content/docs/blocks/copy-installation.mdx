@@ -16,7 +16,7 @@ Code blocks with copy-to-clipboard functionality enhanced with audio feedback. A
 ## Installation
 
 ```bash
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-button
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-button
 ```
 
 ## Code Block with Copy Button
@@ -58,7 +58,7 @@ export function CodeCopyBlock() {
     }
   }, []);
 
-  const code = `npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-button`;
+  const code = `npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-button`;
 
   const handleCopy = async () => {
     try {
@@ -220,7 +220,7 @@ export function InstallCommandBlock() {
     }
   }, []);
 
-  const command = "npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-button";
+  const command = "npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-button";
 
   const handleCopy = async () => {
     try {
@@ -302,7 +302,7 @@ import { IconCheck, IconTerminal } from "@tabler/icons-react";
 export function InstallCommandBlock() {
   const [copied, setCopied] = useState(false);
 
-  const command = "npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui";
+  const command = "npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui";
 
   const handleCopy = async () => {
     await navigator.clipboard.writeText(command);

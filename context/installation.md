@@ -15,7 +15,7 @@ This document describes the full installation flow, what files are created, how 
 ## Step 1: Install via shadcn CLI
 
 ```bash
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui
 ```
 
 The CLI will:
@@ -180,8 +180,8 @@ Open the browser devtools console and look for any sensory-ui warnings. In devel
 Validate the GitHub registry payload from the CLI:
 
 ```bash
-npx shadcn@latest registry validate SatyamVyas04/sensory-ui
-npx shadcn@latest list SatyamVyas04/sensory-ui
+npx shadcn@latest registry validate shadcn-labs/sensory-ui
+npx shadcn@latest list shadcn-labs/sensory-ui
 ```
 
 Or build locally to validate:
@@ -211,7 +211,7 @@ If you hear nothing:
 To update the engine and primitives to a newer version:
 
 ```bash
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui --overwrite
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui --overwrite
 ```
 
 The `--overwrite` flag replaces the engine, config loader, primitive files, and the embedded sound modules in `sounds/*.ts`.

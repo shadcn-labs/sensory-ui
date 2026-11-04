@@ -19,8 +19,7 @@ export function CodeCopyBlockLive() {
     []
   );
 
-  const code =
-    "npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-button";
+  const code = "npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-button";
 
   const handleCopy = async () => {
     try {

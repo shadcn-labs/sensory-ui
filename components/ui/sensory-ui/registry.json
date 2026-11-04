@@ -74,7 +74,7 @@
       "title": "Sensory Accordion",
       "description": "Accordion with expand/collapse sounds.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "accordion"
       ],
       "files": [
@@ -90,7 +90,7 @@
       "title": "Sensory Alert Dialog",
       "description": "Alert dialog with open/close sounds.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "alert-dialog"
       ],
       "files": [
@@ -106,7 +106,7 @@
       "title": "Sensory Button",
       "description": "Button with click sound.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "button"
       ],
       "files": [
@@ -122,7 +122,7 @@
       "title": "Sensory Carousel",
       "description": "Carousel with navigation sounds on prev/next buttons.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "carousel"
       ],
       "files": [
@@ -138,7 +138,7 @@
       "title": "Sensory Checkbox",
       "description": "Checkbox with check sound.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "checkbox"
       ],
       "files": [
@@ -154,7 +154,7 @@
       "title": "Sensory Collapsible",
       "description": "Collapsible with open/close sounds.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "collapsible"
       ],
       "files": [
@@ -170,7 +170,7 @@
       "title": "Sensory Command",
       "description": "Command palette with item selection sound.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "command"
       ],
       "files": [
@@ -186,7 +186,7 @@
       "title": "Sensory Context Menu",
       "description": "Context menu with open/close and item selection sounds.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "context-menu"
       ],
       "files": [
@@ -202,7 +202,7 @@
       "title": "Sensory Dialog",
       "description": "Dialog with open/close sounds.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "dialog"
       ],
       "files": [
@@ -218,7 +218,7 @@
       "title": "Sensory Drawer",
       "description": "Drawer with open/close sounds.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "drawer"
       ],
       "files": [
@@ -234,7 +234,7 @@
       "title": "Sensory Dropdown Menu",
       "description": "Dropdown menu with open/close and item selection sounds.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "dropdown-menu"
       ],
       "files": [
@@ -250,7 +250,7 @@
       "title": "Sensory Menubar",
       "description": "Menubar with trigger and item selection sounds.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "menubar"
       ],
       "files": [
@@ -266,7 +266,7 @@
       "title": "Sensory Navigation Menu",
       "description": "Navigation menu with trigger and link click sounds.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "navigation-menu"
       ],
       "files": [
@@ -282,7 +282,7 @@
       "title": "Sensory Pagination",
       "description": "Pagination with page link click sounds.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "pagination"
       ],
       "files": [
@@ -298,7 +298,7 @@
       "title": "Sensory Popover",
       "description": "Popover with open/close sounds.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "popover"
       ],
       "files": [
@@ -314,7 +314,7 @@
       "title": "Sensory Radio Group",
       "description": "Radio group with value change sound.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "radio-group"
       ],
       "files": [
@@ -330,7 +330,7 @@
       "title": "Sensory Select",
       "description": "Select with open/close sounds.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "select"
       ],
       "files": [
@@ -346,7 +346,7 @@
       "title": "Sensory Sheet",
       "description": "Sheet with open/close sounds.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "sheet"
       ],
       "files": [
@@ -362,7 +362,7 @@
       "title": "Sensory Sidebar",
       "description": "Sidebar with open/close sounds.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "sidebar"
       ],
       "files": [
@@ -378,7 +378,7 @@
       "title": "Sensory Slider",
       "description": "Slider with value commit sound.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "slider"
       ],
       "files": [
@@ -394,7 +394,7 @@
       "title": "Sensory Switch",
       "description": "Switch with toggle sound.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "switch"
       ],
       "files": [
@@ -410,7 +410,7 @@
       "title": "Sensory Tabs",
       "description": "Tabs with tab change sound.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "tabs"
       ],
       "files": [
@@ -426,7 +426,7 @@
       "title": "Sensory Toggle",
       "description": "Toggle with pressed state change sound.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "toggle"
       ],
       "files": [
@@ -442,7 +442,7 @@
       "title": "Sensory Toggle Group",
       "description": "Toggle group with value change sound.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-core",
         "toggle-group"
       ],
       "files": [
@@ -458,31 +458,31 @@
       "title": "sensory-ui",
       "description": "Install all sensory-ui components at once. Semantic, opt-in sound layer for shadcn/ui.",
       "registryDependencies": [
-        "SatyamVyas04/sensory-ui/sensory-ui-core",
-        "SatyamVyas04/sensory-ui/sensory-ui-accordion",
-        "SatyamVyas04/sensory-ui/sensory-ui-alert-dialog",
-        "SatyamVyas04/sensory-ui/sensory-ui-button",
-        "SatyamVyas04/sensory-ui/sensory-ui-carousel",
-        "SatyamVyas04/sensory-ui/sensory-ui-checkbox",
-        "SatyamVyas04/sensory-ui/sensory-ui-collapsible",
-        "SatyamVyas04/sensory-ui/sensory-ui-command",
-        "SatyamVyas04/sensory-ui/sensory-ui-context-menu",
-        "SatyamVyas04/sensory-ui/sensory-ui-dialog",
-        "SatyamVyas04/sensory-ui/sensory-ui-drawer",
-        "SatyamVyas04/sensory-ui/sensory-ui-dropdown-menu",
-        "SatyamVyas04/sensory-ui/sensory-ui-menubar",
-        "SatyamVyas04/sensory-ui/sensory-ui-navigation-menu",
-        "SatyamVyas04/sensory-ui/sensory-ui-pagination",
-        "SatyamVyas04/sensory-ui/sensory-ui-popover",
-        "SatyamVyas04/sensory-ui/sensory-ui-radio-group",
-        "SatyamVyas04/sensory-ui/sensory-ui-select",
-        "SatyamVyas04/sensory-ui/sensory-ui-sheet",
-        "SatyamVyas04/sensory-ui/sensory-ui-sidebar",
-        "SatyamVyas04/sensory-ui/sensory-ui-slider",
-        "SatyamVyas04/sensory-ui/sensory-ui-switch",
-        "SatyamVyas04/sensory-ui/sensory-ui-tabs",
-        "SatyamVyas04/sensory-ui/sensory-ui-toggle",
-        "SatyamVyas04/sensory-ui/sensory-ui-toggle-group"
+        "shadcn-labs/sensory-ui/sensory-ui-core",
+        "shadcn-labs/sensory-ui/sensory-ui-accordion",
+        "shadcn-labs/sensory-ui/sensory-ui-alert-dialog",
+        "shadcn-labs/sensory-ui/sensory-ui-button",
+        "shadcn-labs/sensory-ui/sensory-ui-carousel",
+        "shadcn-labs/sensory-ui/sensory-ui-checkbox",
+        "shadcn-labs/sensory-ui/sensory-ui-collapsible",
+        "shadcn-labs/sensory-ui/sensory-ui-command",
+        "shadcn-labs/sensory-ui/sensory-ui-context-menu",
+        "shadcn-labs/sensory-ui/sensory-ui-dialog",
+        "shadcn-labs/sensory-ui/sensory-ui-drawer",
+        "shadcn-labs/sensory-ui/sensory-ui-dropdown-menu",
+        "shadcn-labs/sensory-ui/sensory-ui-menubar",
+        "shadcn-labs/sensory-ui/sensory-ui-navigation-menu",
+        "shadcn-labs/sensory-ui/sensory-ui-pagination",
+        "shadcn-labs/sensory-ui/sensory-ui-popover",
+        "shadcn-labs/sensory-ui/sensory-ui-radio-group",
+        "shadcn-labs/sensory-ui/sensory-ui-select",
+        "shadcn-labs/sensory-ui/sensory-ui-sheet",
+        "shadcn-labs/sensory-ui/sensory-ui-sidebar",
+        "shadcn-labs/sensory-ui/sensory-ui-slider",
+        "shadcn-labs/sensory-ui/sensory-ui-switch",
+        "shadcn-labs/sensory-ui/sensory-ui-tabs",
+        "shadcn-labs/sensory-ui/sensory-ui-toggle",
+        "shadcn-labs/sensory-ui/sensory-ui-toggle-group"
       ],
       "files": []
     }

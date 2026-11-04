@@ -27,7 +27,7 @@ Before you begin, make sure you have:
 Start with just a button. There is no reason to install all 24 components before you need them:
 
 ```bash
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-button
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-button
 ```
 
 This pulls the core engine (provider, config, all 9 sound packs) plus the Button. The registry is served directly from the public GitHub repository via `registry.json`. No custom registry server or URL required.
@@ -35,7 +35,7 @@ This pulls the core engine (provider, config, all 9 sound packs) plus the Button
 <Callout type="info">
   Add more pieces as you need them (`sensory-ui-dialog`, `sensory-ui-tabs`,
   …) or install everything at once with
-  `SatyamVyas04/sensory-ui/sensory-ui`. One component is the recommended
+  `shadcn-labs/sensory-ui/sensory-ui`. One component is the recommended
   starting point.
 </Callout>
 
@@ -160,8 +160,8 @@ Open the browser devtools console and look for any sensory-ui warnings. In devel
 Validate the GitHub registry payload from the CLI:
 
 ```bash
-npx shadcn@latest registry validate SatyamVyas04/sensory-ui
-npx shadcn@latest list SatyamVyas04/sensory-ui
+npx shadcn@latest registry validate shadcn-labs/sensory-ui
+npx shadcn@latest list shadcn-labs/sensory-ui
 ```
 
 Or build locally to validate:
@@ -193,7 +193,7 @@ If you hear nothing:
 To update the engine and primitives to a newer version:
 
 ```bash
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui --overwrite
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui --overwrite
 ```
 
 The `--overwrite` flag replaces the engine, config loader, primitive files, and the embedded sound modules in `sounds/*.ts`. No user-owned file is ever overwritten automatically.

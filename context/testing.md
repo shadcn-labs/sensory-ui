@@ -90,8 +90,8 @@ npm run fix
 Validate the GitHub registry payload directly from the CLI:
 
 ```bash
-npx shadcn@latest registry validate SatyamVyas04/sensory-ui
-npx shadcn@latest list SatyamVyas04/sensory-ui
+npx shadcn@latest registry validate shadcn-labs/sensory-ui
+npx shadcn@latest list shadcn-labs/sensory-ui
 ```
 
 Or validate locally:
@@ -108,16 +108,16 @@ Test installing from the GitHub registry in a separate Next.js project:
 
 ```bash
 # In a separate test project directory
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui
 ```
 
 Or install individual components:
 
 ```bash
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-core
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-button
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-slider
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-checkbox
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-core
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-button
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-slider
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-checkbox
 ```
 
 The CLI reads `registry.json` and referenced files directly from the public GitHub repository. No server or build step needed for installation.
@@ -311,15 +311,15 @@ This is handled by `activePlayback` tracking in `engine.ts`, which stops the pre
 
 ## Quick Reference
 
-| Command                  | Purpose                                      |
-| ------------------------ | -------------------------------------------- |
-| `npm run dev`            | Start dev server for interactive testing     |
-| `npm run build`          | Full production build                        |
-| `npm run check`          | Biome/Ultracite lint (sensory-ui files only) |
-| `npm run fix`            | Biome/Ultracite auto-fix                     |
-| `npx tsc --noEmit`       | TypeScript compilation check                 |
-| `npm run registry:build` | Validate registry via `shadcn build`         |
-| `npx shadcn@latest registry validate SatyamVyas04/sensory-ui` | Validate GitHub registry           |
+| Command                                                      | Purpose                                      |
+| ------------------------------------------------------------ | -------------------------------------------- |
+| `npm run dev`                                                | Start dev server for interactive testing     |
+| `npm run build`                                              | Full production build                        |
+| `npm run check`                                              | Biome/Ultracite lint (sensory-ui files only) |
+| `npm run fix`                                                | Biome/Ultracite auto-fix                     |
+| `npx tsc --noEmit`                                           | TypeScript compilation check                 |
+| `npm run registry:build`                                     | Validate registry via `shadcn build`         |
+| `npx shadcn@latest registry validate shadcn-labs/sensory-ui` | Validate GitHub registry                     |
 
 ---
 
@@ -329,15 +329,15 @@ Use the shadcn CLI for comprehensive validation:
 
 ```bash
 # Validate registry schema and file references
-npx shadcn@latest registry validate SatyamVyas04/sensory-ui
+npx shadcn@latest registry validate shadcn-labs/sensory-ui
 
 # List all items
-npx shadcn@latest list SatyamVyas04/sensory-ui
+npx shadcn@latest list shadcn-labs/sensory-ui
 
 # View a specific item
-npx shadcn@latest view SatyamVyas04/sensory-ui/sensory-ui-core
-npx shadcn@latest view SatyamVyas04/sensory-ui/sensory-ui-button
+npx shadcn@latest view shadcn-labs/sensory-ui/sensory-ui-core
+npx shadcn@latest view shadcn-labs/sensory-ui/sensory-ui-button
 
 # Search items
-npx shadcn@latest search SatyamVyas04/sensory-ui --query button
+npx shadcn@latest search shadcn-labs/sensory-ui --query button
 ```

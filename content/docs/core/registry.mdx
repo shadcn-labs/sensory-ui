@@ -10,13 +10,13 @@ sensory-ui is published as a **GitHub registry**: a `registry.json` at the repos
 
 ```bash
 # Install everything
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui
 
 # Core only (engine, provider, config, sounds)
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-core
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-core
 
 # Single component
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-button
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-button
 ```
 
 No registry server required. The CLI reads files directly from the public GitHub repository.
@@ -25,9 +25,9 @@ No registry server required. The CLI reads files directly from the public GitHub
 
 | Entry | CLI Address | Purpose |
 |-------|-------------|---------|
-| `sensory-ui` | `SatyamVyas04/sensory-ui/sensory-ui` | Meta-block; lists all items |
-| `sensory-ui-core` | `SatyamVyas04/sensory-ui/sensory-ui-core` | Core engine, provider, config, sounds |
-| `sensory-ui-<name>` | `SatyamVyas04/sensory-ui/sensory-ui-button` etc. | Individual components (24 total) |
+| `sensory-ui` | `shadcn-labs/sensory-ui/sensory-ui` | Meta-block; lists all items |
+| `sensory-ui-core` | `shadcn-labs/sensory-ui/sensory-ui-core` | Core engine, provider, config, sounds |
+| `sensory-ui-<name>` | `shadcn-labs/sensory-ui/sensory-ui-button` etc. | Individual components (24 total) |
 
 ## What Gets Installed
 
@@ -64,7 +64,7 @@ The root `registry.json` delegates to `components/ui/sensory-ui/registry.json`:
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "sensory-ui",
-  "homepage": "https://github.com/SatyamVyas04/sensory-ui",
+  "homepage": "https://github.com/shadcn-labs/sensory-ui",
   "include": ["components/ui/sensory-ui/registry.json"]
 }
 ```
@@ -82,10 +82,10 @@ The root `registry.json` delegates to `components/ui/sensory-ui/registry.json`:
 
 ```bash
 # Validate GitHub registry
-npx shadcn@latest registry validate SatyamVyas04/sensory-ui
+npx shadcn@latest registry validate shadcn-labs/sensory-ui
 
 # List all items
-npx shadcn@latest list SatyamVyas04/sensory-ui
+npx shadcn@latest list shadcn-labs/sensory-ui
 
 # Build locally for validation
 npm run registry:build
@@ -94,7 +94,7 @@ npm run registry:build
 ## Updating
 
 ```bash
-npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui --overwrite
+npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui --overwrite
 ```
 
 The `--overwrite` flag replaces engine, config, primitives, and sound modules. User-owned files (`sensory.config.js`) are never overwritten.

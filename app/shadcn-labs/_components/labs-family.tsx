@@ -96,7 +96,7 @@ export function LabsFamily() {
                 </div>
                 <IconArrowUpRight
                   aria-hidden="true"
-                  className="size-3 -translate-x-2 opacity-0 transition-opacity group-hover:translate-x-0 group-hover:opacity-100 group-focus-visible:translate-x-0 group-focus-visible:opacity-100"
+                  className="size-3 -translate-x-2 opacity-0 transition-all group-hover:translate-x-0 group-hover:opacity-100 group-focus-visible:translate-x-0 group-focus-visible:opacity-100"
                 />
               </a>
             </li>

@@ -20,7 +20,7 @@ export function InstallCommandBlockLive() {
   );
 
   const command =
-    "npx shadcn@latest add SatyamVyas04/sensory-ui/sensory-ui-button";
+    "npx shadcn@latest add shadcn-labs/sensory-ui/sensory-ui-button";
 
   const handleCopy = async () => {
     try {
